@@ -11,7 +11,7 @@ function App() {
       <footer className="footer">
         <a href="https://github.com/AnneAugust606/dictionary" target="blank">
           Open Sorce Code
-        </a>{" "}
+        </a>
         by Gretchyn Hickman
       </footer>
     </div>
