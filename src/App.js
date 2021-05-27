@@ -1,20 +1,21 @@
 import "./App.css";
 import Dictionary from "./dictionary";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <main>
-        <Dictionary />
-      </main>
-      <footer className="footer">
-        <a href="https://github.com/AnneAugust606/dictionary" target="blank">
-          Open Sorce Code
-        </a>
+      <Dictionary defaultKeyword="Sunshine" />
+      <footer>
+        <a
+          href="https://github.com/AnneAugust606/dictionary"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Open-source code
+        </a>{" "}
         by Gretchyn Hickman
       </footer>
     </div>
   );
 }
-
-export default App;

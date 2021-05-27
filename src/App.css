@@ -1,11 +1,15 @@
-.App {
+footer {
+  font-size: 14px;
   text-align: center;
-  align-items: center;
-  justify-content: center;
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
-main {
-  margin-top: 100px;
+
+footer a {
+  color: #555b6e;
+  text-decoration: none;
 }
-.footer {
-  margin-top: 50px;
+
+footer a:hover {
+  color: #e264a9;
 }
