@@ -1,5 +1,5 @@
 .backgroundTop {
-  background-color: #d8e2dc;
+  background-color: #ffe281cc;
   padding-bottom: 40px;
 }
 
@@ -15,6 +15,7 @@
 .Dictionary h1 {
   font-size: 75px;
   text-align: center;
+  color: #ff7b8f;
 }
 
 .search {
